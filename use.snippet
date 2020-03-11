@@ -3,7 +3,7 @@
 	 * ${0:变量注释}
 	 */
 	const r$CURRENT_SECONDS_UNIX = await(() => {
-		const p1 = $1;	// 参数注释
-		const p2 = $2;	// 参数注释
+		const p1 = $1;	// 日期
+		const p2 = '${2|YYYY-MM-DD HH:mm:ss,YYYY-MM-DD,HH:mm:ss|}';	// 字符串的格式 https://momentjs.com/docs/#/parsing/string-format/
 		return an10(p1, p2);
 	})();
