@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/an000010",
-	"version": "1.0.202003171128",
+	"version": "1.0.202004170756",
 	"description": "日期转时间戳",
 	"scripts": {
 		"test": "tsc && ava ./tests/*.js",
